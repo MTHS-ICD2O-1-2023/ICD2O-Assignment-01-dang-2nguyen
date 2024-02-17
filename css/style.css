@@ -1,8 +1,139 @@
-/* Created by: Mr. Coxall
-* Created on: Sep 2020
-* This file contains the CSS for index.html
-*
-background-image: url(./images/JqdiZZ4zZ8lvFNLW0X3UqZ9HMjLhts4Ei4Sff302.jpg);
-background-repeat: no-repeat;
-background-size: cover;
-background-position: center;
+
+* {
+  box-sizing: border-box;
+}
+
+#myHeader {
+  font-family: "Averia Libre", system-ui;
+  font-weight: 700;
+  font-style: normal;
+  color: black;
+  padding: 30px;
+  text-align: center;
+  width: 400px;
+  margin: auto
+}
+
+body {
+  margin: 0;
+  padding: 0;
+
+}
+
+#wrap {
+  overflow: hidden;
+  background-color: white;
+  padding: 15px;
+  width: 80%;
+  margin: auto;
+
+
+}
+
+
+.images {
+  height: 300px;
+  width: 280px;
+  border-radius: 50%;
+  vertical-align: middle;
+  border: 2px solid aqua;
+  box-shadow: rgba(8, 0, 0, 0.996) 0px 5px 15px;
+  margin-top: 60px;
+
+}
+
+.main {
+  background-color: deepskyblue;
+  color: rgb(0, 0, 0);
+  padding: 30px;
+  width: 320px;
+  font-size: 20px;
+
+
+  border: 1px solid black;
+  position: relative;
+  left: 90px;
+  height: 100px;
+
+
+
+}
+
+.main2 {
+  background-color: deepskyblue;
+  color: rgb(0, 0, 0);
+  padding: 30px;
+  width: 320px;
+  font-size: 20px;
+  border: 1px solid black;
+  position: relative;
+  left: 750px;
+  bottom: 870px;
+  height: 100px;
+  align-content: center;
+}
+
+#grad {
+  background: aqua;
+  background: linear-gradient(315deg, deeppink 5%, deepskyblue 150%);
+
+}
+
+
+
+
+
+.font {
+  font-family: "Protest Strike", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  width: 400px;
+
+  position: relative;
+  left: 50px;
+
+
+}
+
+.quote1 {
+  text-align: center;
+  margin: auto;
+  margin-top: 50px;
+  font-family: "Lobster", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  width: 800px;
+}
+
+.quote2 {
+  text-align: center;
+  margin: auto;
+  margin-top: 50px;
+  font-family: "Lobster", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  width: 800px;
+  margin-bottom: 50px;
+
+
+
+}
+
+.font2 {
+  font-family: "Graduate", serif;
+  font-weight: 400;
+  font-style: normal;
+  width: 400px;
+
+  position: relative;
+  left: 720px;
+  bottom: 870px;
+
+}
+.info {
+  
+  position: relative;
+  bottom: 400px;
+  
+  
+}
