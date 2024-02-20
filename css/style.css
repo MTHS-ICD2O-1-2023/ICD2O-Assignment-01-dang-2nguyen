@@ -1,7 +1,6 @@
 
-* {
-  box-sizing: border-box;
-}
+
+
 
 #myHeader {
   font-family: "Averia Libre", system-ui;
@@ -11,12 +10,18 @@
   padding: 30px;
   text-align: center;
   width: 400px;
-  margin: auto
+  margin: auto 
+  
 }
-
+ .header {
+  border-left-style:  double;
+  border-right-style: double;
+  border: 5px black solid;
+ }
 body {
   margin: 0;
   padding: 0;
+  display: flow-root;
 
 }
 
@@ -26,6 +31,7 @@ body {
   padding: 15px;
   width: 80%;
   margin: auto;
+  margin-bottom: 100px;
 
 
 }
@@ -53,7 +59,8 @@ body {
   border: 1px solid black;
   position: relative;
   left: 90px;
-  height: 100px;
+  
+  height: 50px;
 
 
 
@@ -68,8 +75,8 @@ body {
   border: 1px solid black;
   position: relative;
   left: 750px;
-  bottom: 870px;
-  height: 100px;
+  bottom: 1540px;
+  height: 50px;
   align-content: center;
 }
 
@@ -84,16 +91,24 @@ body {
 
 
 .font {
-  font-family: "Protest Strike", sans-serif;
-  font-weight: 400;
-  font-style: normal;
+  font-family: "Kode Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
   width: 400px;
-
+  margin: 50px;
   position: relative;
-  left: 50px;
+  left: -10px;
 
 
 }
+.picture1 {
+  float: left;
+  display: inline;
+  width: 100px;
+  margin: 10px;
+}
+
 
 .quote1 {
   text-align: center;
@@ -124,10 +139,11 @@ body {
   font-weight: 400;
   font-style: normal;
   width: 400px;
+  margin: 70px;
 
   position: relative;
-  left: 720px;
-  bottom: 870px;
+  left: 650px;
+  bottom: 1540px;
 
 }
 .info {
