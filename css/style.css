@@ -18,6 +18,7 @@
   border-right-style: double;
   border: 5px black solid;
  }
+ 
 body {
   margin: 0;
   padding: 0;
@@ -31,7 +32,8 @@ body {
   padding: 15px;
   width: 80%;
   margin: auto;
-  margin-bottom: 100px;
+  margin-bottom: 500px;
+  box-shadow: rgba(46, 233, 240, 0.4) 5px 5px, rgba(46, 233, 240, 0.3) 10px 10px, rgba(46, 233, 240, 0.2) 15px 15px, rgba(46, 233, 240, 0.1) 20px 20px, rgba(46, 201, 240, 0.05) 25px 25px;
 
 
 }
@@ -49,35 +51,33 @@ body {
 }
 
 .main {
-  background-color: deepskyblue;
+  background-color: white;
   color: rgb(0, 0, 0);
-  padding: 30px;
-  width: 320px;
+  width: 500px;
+  
   font-size: 20px;
-
-
-  border: 1px solid black;
+  border-bottom: 2px solid black;
   position: relative;
   left: 90px;
-  
-  height: 50px;
+  padding-bottom: 10px ;
+ 
 
 
 
 }
 
 .main2 {
-  background-color: deepskyblue;
+  background-color: white;
   color: rgb(0, 0, 0);
-  padding: 30px;
-  width: 320px;
+  padding-bottom: -10px;
+  width: 500px;
   font-size: 20px;
-  border: 1px solid black;
+  border-bottom: 2px double black;
   position: relative;
-  left: 750px;
-  bottom: 1540px;
+  left: 90px;
   height: 50px;
   align-content: center;
+  margin-top: 200px;
 }
 
 #grad {
@@ -95,8 +95,8 @@ body {
     font-optical-sizing: auto;
     font-weight: weight;
     font-style: normal;
-  width: 400px;
-  margin: 50px;
+  width: 1000px;
+  margin: 100px;
   position: relative;
   left: -10px;
 
@@ -138,18 +138,11 @@ body {
   font-family: "Graduate", serif;
   font-weight: 400;
   font-style: normal;
-  width: 400px;
+  width: 1000px;
   margin: 70px;
 
   position: relative;
-  left: 650px;
-  bottom: 1540px;
+  left: -10px;
+  
 
-}
-.info {
-  
-  position: relative;
-  bottom: 400px;
-  
-  
 }
