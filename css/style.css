@@ -11,8 +11,8 @@
   text-align: center;
   width: 400px;
   margin: auto 
-  
-}
+  }
+
  .header {
   border-left-style:  double;
   border-right-style: double;
@@ -33,11 +33,10 @@ body {
   width: 80%;
   margin: auto;
   margin-bottom: 500px;
-  box-shadow: rgba(46, 233, 240, 0.4) 5px 5px, rgba(46, 233, 240, 0.3) 10px 10px, rgba(46, 233, 240, 0.2) 15px 15px, rgba(46, 233, 240, 0.1) 20px 20px, rgba(46, 201, 240, 0.05) 25px 25px;
+  box-shadow: rgba(0, 255, 255, 0.497) 5px 5px,rgba(0, 255, 255, 0.311) 10px 10px, rgba(0, 255, 255, 0.207) 15px 15px,rgba(0, 255, 255, 0.103) 20px 20px, rgba(0, 255, 255, 0.053) 25px 25px;
 
 
 }
-
 
 .images {
   height: 300px;
@@ -54,18 +53,17 @@ body {
   background-color: white;
   color: rgb(0, 0, 0);
   width: 500px;
-  
   font-size: 20px;
   border-bottom: 2px solid black;
   position: relative;
   left: 90px;
   padding-bottom: 10px ;
- 
+  
+ }
 
-
-
-}
-
+ .picturemain {
+  overflow: hidden;
+ }
 .main2 {
   background-color: white;
   color: rgb(0, 0, 0);
@@ -77,7 +75,7 @@ body {
   left: 90px;
   height: 50px;
   align-content: center;
-  margin-top: 200px;
+  margin-top: 150px;
 }
 
 #grad {
@@ -85,10 +83,6 @@ body {
   background: linear-gradient(315deg, deeppink 5%, deepskyblue 150%);
 
 }
-
-
-
-
 
 .font {
   font-family: "Kode Mono", monospace;
@@ -99,16 +93,19 @@ body {
   margin: 100px;
   position: relative;
   left: -10px;
-
-
+  text-align: left;
 }
+
 .picture1 {
   float: left;
   display: inline;
-  width: 100px;
+  width: 110px;
   margin: 10px;
+  height: 90px;
+  position:relative;
+  bottom:20px;
+  border: solid 2px darkgoldenrod;
 }
-
 
 .quote1 {
   text-align: center;
@@ -129,9 +126,6 @@ body {
   font-style: normal;
   width: 800px;
   margin-bottom: 50px;
-
-
-
 }
 
 .font2 {
@@ -139,10 +133,20 @@ body {
   font-weight: 400;
   font-style: normal;
   width: 1000px;
-  margin: 70px;
-
+  margin: 100px;
+  text-align: left;
   position: relative;
   left: -10px;
-  
+  }
 
+.picture2 {
+  float: left;
+    display: inline;
+    width: 100px;
+    margin: 10px;
+    height: 80px;
+    position: relative;
+    bottom: 20px;
+    border: solid 2px darkgoldenrod;
+    margin-top: 10px;
 }
